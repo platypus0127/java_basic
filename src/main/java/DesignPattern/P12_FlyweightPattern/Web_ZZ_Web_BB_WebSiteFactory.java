@@ -9,6 +9,7 @@ package DesignPattern.P12_FlyweightPattern;
 * */
 public class Web_ZZ_Web_BB_WebSiteFactory {
 
+
     public static void main(String[] args) {
         // 创建一个工厂
         Web_BB_WebSiteFactory factory = new Web_BB_WebSiteFactory();
