@@ -8,8 +8,6 @@ package DesignPattern.P12_FlyweightPattern;
 * 外部状态：对象用来标记的一个内容，随环境会改变，不可共享
 * */
 public class Web_ZZ_Web_BB_WebSiteFactory {
-
-
     public static void main(String[] args) {
         // 创建一个工厂
         Web_BB_WebSiteFactory factory = new Web_BB_WebSiteFactory();
