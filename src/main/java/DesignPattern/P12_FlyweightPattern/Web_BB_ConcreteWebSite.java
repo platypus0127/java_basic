@@ -15,6 +15,8 @@ public class Web_BB_ConcreteWebSite extends  Web_AA_WebSite {
 
     @Override
     public void use(Web_AA_User user) {
-        System.out.println("【当前网站分类】：" + name + "【客户】" + user.getName());
+
+        System.out.println("【当前网站分类】：" + name + "【客户】" + user.getName()
+        );
     }
 }
